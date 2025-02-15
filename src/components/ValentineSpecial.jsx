@@ -5,7 +5,7 @@ import "./ValentineSpecial.css"; // Ensure ValentineSpecial.css exists
 
 export default function ValentineSpecial() {
   const [love, setLove] = useState(false);
-  const [noPosition, setNoPosition] = useState({ top: "55%", left: "55%" });
+  const [noPosition, setNoPosition] = useState({ top: "59%", left: "65%" });
   const [noClicked, setNoClicked] = useState(false);
 
   const handleYes = () => setLove(true);
